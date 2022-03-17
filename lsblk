@@ -1,0 +1,13 @@
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           8:0    0 931.5G  0 disk 
+└─sda1        8:1    0 931.5G  0 part /storage
+sdb           8:16   0 238.5G  0 disk 
+└─sdb1        8:17   0 238.5G  0 part /home
+sdc           8:32   0 223.6G  0 disk 
+└─sdc1        8:33   0 223.6G  0 part /storage/.snapshots
+                                      /home/.snapshots
+                                      /.snapshots
+                                      /var_log
+nvme0n1     259:0    0 119.2G  0 disk 
+├─nvme0n1p1 259:1    0   256M  0 part /boot
+└─nvme0n1p2 259:2    0   119G  0 part /

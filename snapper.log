@@ -1,0 +1,307 @@
+2022-03-17 19:19:25 MIL libsnapper(592) snapperd.cc(main):276 - Requesting DBus name
+2022-03-17 19:19:25 MIL libsnapper(592) snapperd.cc(main):291 - Loading snapper configs
+2022-03-17 19:19:25 MIL libsnapper(592) Snapper.cc(getConfigs):290 - Snapper get-configs
+2022-03-17 19:19:25 MIL libsnapper(592) Snapper.cc(getConfigs):291 - libsnapper version 0.9.1
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:
+2022-03-17 19:19:25 MIL libsnapper(592) snapperd.cc(main):304 - Listening for method calls and signals
+2022-03-17 19:19:25 MIL libsnapper(592) Snapper.cc(createConfig):331 - Snapper create-config
+2022-03-17 19:19:25 MIL libsnapper(592) Snapper.cc(createConfig):332 - libsnapper version 0.9.1
+2022-03-17 19:19:25 MIL libsnapper(592) Snapper.cc(createConfig):333 - config_name:root subvolume:/ fstype:btrfs template_name:default
+2022-03-17 19:19:25 MIL libsnapper(592) Snapper.cc(getConfigs):290 - Snapper get-configs
+2022-03-17 19:19:25 MIL libsnapper(592) Snapper.cc(getConfigs):291 - libsnapper version 0.9.1
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(save):140 - saving file /etc/conf.d/snapper
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /usr/share/snapper/config-templates/default
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(save):140 - saving file /etc/snapper/configs/root
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:
+2022-03-17 19:19:25 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:
+2022-03-17 19:19:30 MIL libsnapper(592) Snapper.cc(createConfig):331 - Snapper create-config
+2022-03-17 19:19:30 MIL libsnapper(592) Snapper.cc(createConfig):332 - libsnapper version 0.9.1
+2022-03-17 19:19:30 MIL libsnapper(592) Snapper.cc(createConfig):333 - config_name:home subvolume:/home fstype:btrfs template_name:default
+2022-03-17 19:19:30 MIL libsnapper(592) Snapper.cc(getConfigs):290 - Snapper get-configs
+2022-03-17 19:19:30 MIL libsnapper(592) Snapper.cc(getConfigs):291 - libsnapper version 0.9.1
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:root
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:root
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(save):140 - saving file /etc/conf.d/snapper
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /usr/share/snapper/config-templates/default
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(save):140 - saving file /etc/snapper/configs/home
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/home
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/home
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:
+2022-03-17 19:19:30 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:
+2022-03-17 19:19:36 MIL libsnapper(592) Snapper.cc(createConfig):331 - Snapper create-config
+2022-03-17 19:19:36 MIL libsnapper(592) Snapper.cc(createConfig):332 - libsnapper version 0.9.1
+2022-03-17 19:19:36 MIL libsnapper(592) Snapper.cc(createConfig):333 - config_name:storage subvolume:/storage fstype:btrfs template_name:default
+2022-03-17 19:19:36 MIL libsnapper(592) Snapper.cc(getConfigs):290 - Snapper get-configs
+2022-03-17 19:19:36 MIL libsnapper(592) Snapper.cc(getConfigs):291 - libsnapper version 0.9.1
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:root home
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/home
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/home
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:root home
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(save):140 - saving file /etc/conf.d/snapper
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /usr/share/snapper/config-templates/default
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(save):140 - saving file /etc/snapper/configs/storage
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/storage
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/storage
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:
+2022-03-17 19:19:36 MIL libsnapper(592) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:
+2022-03-17 19:20:36 MIL libsnapper(592) snapperd.cc(main):308 - Exiting
+2022-03-17 19:27:31 MIL libsnapper(8734) snapperd.cc(main):276 - Requesting DBus name
+2022-03-17 19:27:31 MIL libsnapper(8734) snapperd.cc(main):291 - Loading snapper configs
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(getConfigs):290 - Snapper get-configs
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(getConfigs):291 - libsnapper version 0.9.1
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:root home storage
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/home
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/home
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/storage
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/storage
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:27:31 MIL libsnapper(8734) snapperd.cc(main):304 - Listening for method calls and signals
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):94 - config_name:home disable_filters:false
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/home
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/home
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):125 - subvolume:/home filesystem:btrfs
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):94 - config_name:root disable_filters:false
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):125 - subvolume:/ filesystem:btrfs
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):94 - config_name:storage disable_filters:false
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/storage
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/storage
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:27:31 MIL libsnapper(8734) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(Snapper):125 - subvolume:/storage filesystem:btrfs
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:27:31 MIL libsnapper(8734) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:28:01 MIL libsnapper(8734) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:28:01 MIL libsnapper(8734) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:28:01 MIL libsnapper(8734) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:28:31 MIL libsnapper(8734) snapperd.cc(main):308 - Exiting
+2022-03-17 19:28:49 MIL libsnapper(8841) snapperd.cc(main):276 - Requesting DBus name
+2022-03-17 19:28:49 MIL libsnapper(8841) snapperd.cc(main):291 - Loading snapper configs
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapper.cc(getConfigs):290 - Snapper get-configs
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapper.cc(getConfigs):291 - libsnapper version 0.9.1
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:root home storage
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/home
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/home
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/storage
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/storage
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:28:49 MIL libsnapper(8841) snapperd.cc(main):304 - Listening for method calls and signals
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapper.cc(Snapper):94 - config_name:root disable_filters:false
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:28:49 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapper.cc(Snapper):125 - subvolume:/ filesystem:btrfs
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:28:49 MIL libsnapper(8841) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:28:49 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:28:49 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:28:49 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:28:49 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:28:49 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:28:49 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:28:49 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:29:15 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:29:15 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:29:15 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:29:15 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:29:15 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:29:15 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:29:15 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:29:20 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:29:20 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:29:20 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:29:20 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:29:20 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:29:20 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:29:20 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:29:50 MIL libsnapper(8841) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:30:10 MIL libsnapper(8841) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:30:10 MIL libsnapper(8841) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:30:10 MIL libsnapper(8841) Snapper.cc(Snapper):94 - config_name:home disable_filters:false
+2022-03-17 19:30:10 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/home
+2022-03-17 19:30:10 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/home
+2022-03-17 19:30:10 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:30:10 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:30:10 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:30:10 MIL libsnapper(8841) Snapper.cc(Snapper):125 - subvolume:/home filesystem:btrfs
+2022-03-17 19:30:10 MIL libsnapper(8841) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:30:10 MIL libsnapper(8841) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:30:10 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path:/home/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:10 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path:/home/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:10 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:30:10 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:30:10 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:30:10 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:30:10 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:30:14 MIL libsnapper(8841) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:30:14 MIL libsnapper(8841) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:30:14 MIL libsnapper(8841) Snapper.cc(Snapper):94 - config_name:storage disable_filters:false
+2022-03-17 19:30:14 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/storage
+2022-03-17 19:30:14 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/storage
+2022-03-17 19:30:14 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:30:14 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:30:14 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:30:14 MIL libsnapper(8841) Snapper.cc(Snapper):125 - subvolume:/storage filesystem:btrfs
+2022-03-17 19:30:14 MIL libsnapper(8841) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:30:14 MIL libsnapper(8841) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:30:14 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path:/storage/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:14 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path:/storage/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:14 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:30:14 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:30:14 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:30:14 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:30:14 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:30:18 MIL libsnapper(8841) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:30:18 MIL libsnapper(8841) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:30:18 MIL libsnapper(8841) Snapper.cc(Snapper):94 - config_name:root disable_filters:false
+2022-03-17 19:30:18 MIL libsnapper(8841) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:30:18 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:30:18 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:30:18 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:30:18 MIL libsnapper(8841) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:30:18 MIL libsnapper(8841) Snapper.cc(Snapper):125 - subvolume:/ filesystem:btrfs
+2022-03-17 19:30:18 MIL libsnapper(8841) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:30:18 MIL libsnapper(8841) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:30:18 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:18 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:18 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:30:18 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:30:18 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:30:18 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:30:18 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:30:33 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:33 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:33 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:30:33 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:30:33 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:30:33 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:30:33 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:30:36 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path:/home/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:36 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path:/home/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:36 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:30:36 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:30:36 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:30:36 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:30:36 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:30:38 WAR libsnapper(8841) FileUtils.cc(SDir):91 - THROW: open failed path:/storage/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:38 WAR libsnapper(8841) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path:/storage/.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:30:38 ERR libsnapper(8841) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:30:38 WAR libsnapper(8841) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:30:38 WAR libsnapper(8841) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:30:38 WAR libsnapper(8841) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:30:38 WAR libsnapper(8841) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:31:03 MIL libsnapper(8841) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:31:07 MIL libsnapper(8841) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:31:08 MIL libsnapper(8841) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:31:38 MIL libsnapper(8841) snapperd.cc(main):308 - Exiting
+2022-03-17 19:37:48 MIL libsnapper(12420) snapperd.cc(main):276 - Requesting DBus name
+2022-03-17 19:37:48 MIL libsnapper(12420) snapperd.cc(main):291 - Loading snapper configs
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapper.cc(getConfigs):290 - Snapper get-configs
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapper.cc(getConfigs):291 - libsnapper version 0.9.1
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(reload):115 - loading file /etc/conf.d/snapper
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SNAPPER_CONFIGS value:root home storage
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/home
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/home
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/storage
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/storage
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:ALLOW_USERS value:hkk
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:ALLOW_GROUPS value:snapshots
+2022-03-17 19:37:48 MIL libsnapper(12420) snapperd.cc(main):304 - Listening for method calls and signals
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapper.cc(Snapper):94 - config_name:root disable_filters:false
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:37:48 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapper.cc(Snapper):125 - subvolume:/ filesystem:btrfs
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:37:48 MIL libsnapper(12420) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:37:48 WAR libsnapper(12420) FileUtils.cc(SDir):91 - THROW: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:37:48 WAR libsnapper(12420) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:37:48 ERR libsnapper(12420) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:37:48 WAR libsnapper(12420) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:37:48 WAR libsnapper(12420) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:37:48 WAR libsnapper(12420) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:37:48 WAR libsnapper(12420) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:38:18 MIL libsnapper(12420) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:38:27 MIL libsnapper(12420) Snapper.cc(Snapper):92 - Snapper constructor
+2022-03-17 19:38:27 MIL libsnapper(12420) Snapper.cc(Snapper):93 - libsnapper version 0.9.1
+2022-03-17 19:38:27 MIL libsnapper(12420) Snapper.cc(Snapper):94 - config_name:root disable_filters:false
+2022-03-17 19:38:27 MIL libsnapper(12420) AsciiFile.cc(reload):115 - loading file /etc/snapper/configs/root
+2022-03-17 19:38:27 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SUBVOLUME value:/
+2022-03-17 19:38:27 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:FSTYPE value:btrfs
+2022-03-17 19:38:27 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:QGROUP value:
+2022-03-17 19:38:27 MIL libsnapper(12420) AsciiFile.cc(getValue):242 - key:SYNC_ACL value:no
+2022-03-17 19:38:27 MIL libsnapper(12420) Snapper.cc(Snapper):125 - subvolume:/ filesystem:btrfs
+2022-03-17 19:38:27 MIL libsnapper(12420) Snapper.cc(loadIgnorePatterns):195 - number of ignore patterns:8
+2022-03-17 19:38:27 MIL libsnapper(12420) Snapshot.cc(read):274 - found 1 snapshots
+2022-03-17 19:38:27 WAR libsnapper(12420) FileUtils.cc(SDir):91 - THROW: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:38:27 WAR libsnapper(12420) Btrfs.cc(checkSnapshot):481 - CAUGHT: open failed path://.snapshots/1 errno:2 (No such file or directory)
+2022-03-17 19:38:27 ERR libsnapper(12420) Btrfs.cc(createSnapshot):327 - create snapshot failed, ioctl(BTRFS_IOC_SNAP_CREATE_V2) failed, errno:18 (Invalid cross-device link)
+2022-03-17 19:38:27 WAR libsnapper(12420) Btrfs.cc(createSnapshot):328 - THROW: create snapshot failed
+2022-03-17 19:38:27 WAR libsnapper(12420) Snapshot.cc(createHelper):680 - CAUGHT: create snapshot failed
+2022-03-17 19:38:27 WAR libsnapper(12420) Snapshot.cc(createHelper):685 - RETHROW: create snapshot failed
+2022-03-17 19:38:27 WAR libsnapper(12420) Client.cc(dispatch):1800 - CAUGHT: create snapshot failed
+2022-03-17 19:38:58 MIL libsnapper(12420) Snapper.cc(~Snapper):137 - Snapper destructor
+2022-03-17 19:39:28 MIL libsnapper(12420) snapperd.cc(main):308 - Exiting

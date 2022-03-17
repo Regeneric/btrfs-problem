@@ -1,0 +1,36 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p1
+UUID=5E57-016B      				/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+
+
+# /dev/nvme0n1p2
+UUID=600b4c23-78e1-45c3-bdaa-f379ea5a7da9	/         	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvolid=256,subvol=/@	0 0
+
+# /dev/sdc1
+UUID=b7337eb2-c452-4d7a-882f-d4fbeaadf44e	/.snapshots	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvolid=256,subvol=/@snapshots	0 0
+
+
+
+# /dev/sdb1
+UUID=4cb1a32e-d211-450a-92a8-96610f28c1a8	/home     		btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvolid=256,subvol=/@home	0 0
+
+# /dev/sdc1
+UUID=b7337eb2-c452-4d7a-882f-d4fbeaadf44e	/home/.snapshots	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvolid=257,subvol=/@home-snapshots	0 0
+
+
+
+# /dev/sda1
+UUID=bf3bfb78-ec9d-4bb4-b19e-953f089a830c	/storage  		btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvolid=256,subvol=/@storage	0 0
+
+# /dev/sdc1
+UUID=b7337eb2-c452-4d7a-882f-d4fbeaadf44e	/storage/.snapshots	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvolid=258,subvol=/@storage-snapshots	0 0
+
+
+
+# /dev/sdc1
+UUID=b7337eb2-c452-4d7a-882f-d4fbeaadf44e	/var_log  	btrfs     	rw,noatime,compress=lzo,ssd,space_cache=v2,subvolid=259,subvol=/@var_log	0 0
+
